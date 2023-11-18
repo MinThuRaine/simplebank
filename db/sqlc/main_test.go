@@ -15,6 +15,8 @@ const (
 
 var testQueries *Queries
 
+type aa string
+
 func TestMain(m *testing.M) {
 
 	conn, err := sql.Open(dbDriver, dbSource)
